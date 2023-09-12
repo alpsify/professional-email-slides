@@ -1,6 +1,6 @@
 ---
 theme: default
-background: /img/pexels-photo-2387793.jpeg
+background: /img/pexels-michal-osinski-3454270.jpg
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -39,8 +39,8 @@ jean.martin+site@apple.com (email virtuel, illimité)
 
 |     |     |
 | --- | --- |
-| <kbd>orange.fr</kbd> <kbd>sfr.fr</kbd> <kbd>...</kbd> | emails rattachées à un fournisseur d'accès |
-| <kbd>gmail.com</kbd> <kbd>hotmail.fr</kbd> <kbd>...</kbd> | emails gratuites |
+| <kbd>@orange.fr</kbd> <kbd>@sfr.fr</kbd> <kbd>...</kbd> | emails rattachées à un fournisseur d'accès |
+| <kbd>@gmail.com</kbd> <kbd>@hotmail.fr</kbd> <kbd>...</kbd> | emails gratuites |
 
 <!--
 Here is another comment.
@@ -64,7 +64,7 @@ layout: default
 
 ---
 layout: image-right
-image: /img/jp-valery-blOLCO2K4M0-unsplash.jpg
+image: ./img/jp-valery-blOLCO2K4M0-unsplash.jpg
 ---
 
 # Le coût
@@ -78,7 +78,7 @@ image: /img/jp-valery-blOLCO2K4M0-unsplash.jpg
 
 ---
 layout: image-left
-image: /img/pexels-photomix-company-226746.jpg
+image: ./img/pexels-photomix-company-226746.jpg
 ---
 
 # Sécurité
