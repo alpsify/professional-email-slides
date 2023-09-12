@@ -1,6 +1,6 @@
 ---
 theme: default
-background: /img/pexels-michal-osinski-3454270.jpg
+background: ./img/pexels-michal-osinski-3454270.jpg
 class: text-center
 highlighter: shiki
 lineNumbers: false
