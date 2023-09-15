@@ -1,6 +1,6 @@
 ---
 theme: default
-background: ./img/pexels-michal-osinski-3454270.jpg
+background: ./img/pexels-photo-2387793.jpeg
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -12,6 +12,11 @@ mdc: true
 ---
 
 # Emails professionels
+
+<div class="flex row justify-center">
+<img src="img/Alpsify-LogoTextualHorizontal-white.png" class="h-10 rounded shadow"/>
+</div>
+
 
 ---
 transition: fade-out
@@ -85,10 +90,23 @@ image: ./img/pexels-photomix-company-226746.jpg
 
 Avoir une sécurité renforcée pour l'adresse de messagerie maître est essentiel.
 
+<Box title="Phishing & scamming" text="Induire en erreur le destinataire d'un message, en lui faisant croire qu’il est envoyé par un tiers de confiance." v-click/>
+
 <div class="grid grid-cols-2">
   <Box title="Mot de passe fort" text="12 caractères minimum, avec des caractères spéciaux et des majuscules" v-click/>
   <Box title="Double authentification" text="Mobile, authenticator app, SMS, email" v-click/>
 </div>
+
+--- 
+layout: image-right
+image: ./img/phishing.png
+---
+
+# Phishing & scamming
+<br/>
+<p v-click>Les fuites de données interviennent majoritairement via l'humain qui utilise l'ordinateur. Ce n'est pas l'analyse des données faite par les fournisseurs qui va compromettre votre entreprise.</p>
+
+<h2 v-click>Mettez à jour vos navigateurs et logiciels</h2>
 
 ---
 
@@ -99,23 +117,39 @@ Les solutions disponibles actuellement.
 
 <div class="grid grid-cols-3 gap-10">
   <div class="flex flex-col gap-2 text-center" v-click>
-    <img src="/img/google-workspace.png">
+    <img src="/img/google-workspace.png" />
     <p>Facile d'utilisation et de configuration</p> 
     <p>Suite de bureautique</p>
     <p>Ergonomie et interface agréable</p>
+    <p>Identification des SPAMs et analyse des fichiers entrants</p>
   </div>
   <div class="flex flex-col gap-2 text-center" v-click>
-    <img src="/img/proton.png">
+    <img src="/img/proton.png" />
     <p>Confidentialité et sécurité pour votre entreprise</p>
     <p>Pas de suite bureautique. (VPN, Drive, Calendar)</p>
     <p>Ergonomie et interface agréable</p>
   </div>
   <div class="flex flex-col gap-2 text-center" v-click>
-    <img src="/img/microsoft-office.png">
+    <img src="/img/microsoft-office.png" />
     <p>Configuration compliqué</p>
     <p>Suite bureautique</p>
   </div>
 </div>
+
+---
+
+# Autre solution (non recommandée)
+
+Utilisation d'une adresse email professionnel chez votre hébergeur avec un client de messagerie type Microsoft Outlook.
+
+<div class="grid grid-cols-3 gap-3">
+  <Box title="IMAP ou POP" text="Actions appliquées sur le serveur ou sur vos appareils. Ce choix impacte les fonctionnalités et la possibilité de backup des emails." v-click/>
+  <Box title="Prix très bas" text="Prix faible car aucune protection et outils complémentaire de base. Souviens bien plus cher par la suite." v-click/>
+  <Box title="Confidentialité" text="Tant que vous n'utilisez pas d'outils tiers la confidentialité sera respectée.(selon fournisseur/hébergeur)" v-click/>
+  <Box title="Configuration compliquée" text="La configuration et la maintenance de ce type d'installation est compliqué et nécéssite un spécialiste." v-click/>
+  <Box title="Protection basse" text="Cette solution ne vous permet pas d'avoir les système de filtre des leaders du marché. Possibilité de s'équiper en parallèle -> implique une analyse par un tier." v-click/>
+</div>
+
 
 ---
 
