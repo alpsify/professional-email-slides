@@ -14,7 +14,7 @@ mdc: true
 # Emails professionels
 
 <div class="flex row justify-center">
-<img src="img/Alpsify-LogoTextualHorizontal-white.png" class="h-10 rounded shadow"/>
+  <img src="/img/alpsify-logotextualhorizontal-white.png" class="h-10 rounded shadow"/>
 </div>
 
 
@@ -67,19 +67,6 @@ layout: default
   <Box title="Sécurité" text="Vos emails personnels et professionnels sont séparé. Vos emails on moins de probabilité de finir dans les SPAMs." v-click/>
 </div>
 
----
-layout: image-right
-image: ./img/jp-valery-blOLCO2K4M0-unsplash.jpg
----
-
-# Le coût
-
-- nom de domaine ~10€ par an
-- abonnement ~6€ par mois
-- logiciel de messagerie ? Utilisation via Chrome / Safari / Mozilla -> gratuit
-- création / installation / configuration  -> dépendant du prestataire et des besoins
-
-**Environ 100€ par an**
 
 ---
 layout: image-left
@@ -135,6 +122,20 @@ Les solutions disponibles actuellement.
     <p>Suite bureautique</p>
   </div>
 </div>
+
+---
+layout: image-right
+image: ./img/jp-valery-blOLCO2K4M0-unsplash.jpg
+---
+
+# Le coût
+
+- nom de domaine ~10€ par an
+- abonnement ~6€ par mois
+- logiciel de messagerie ? Utilisation via Chrome / Safari / Mozilla -> gratuit
+- création / installation / configuration  -> dépendant du prestataire et des besoins
+
+**Environ 100€ par an**
 
 ---
 
