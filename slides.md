@@ -7,11 +7,11 @@ lineNumbers: false
 drawings:
   persist: false
 transition: slide-left
-title: Emails professionels
+title: E-mails professionels
 mdc: true
 ---
 
-# Emails professionels
+# E-mails professionnels
 
 <div class="flex row justify-center">
   <img src="/img/alpsify-logotextualhorizontal-white.png" class="h-10 rounded shadow"/>
@@ -22,9 +22,9 @@ mdc: true
 transition: fade-out
 ---
 
-# Qu'est qu'un email professionel ?
+# Qu'est-ce qu'un e-mail professionnel ?
 
-C'est une addresse email qui est rattachée à un nom de domaine qui vous appartient. Vous en êtes le propriétaire et vous pouvez la configurer comme vous le souhaitez.
+C'est une adresse e-mail qui est rattachée à un nom de domaine qui vous appartient. Vous en êtes le propriétaire et vous pouvez la configurer comme vous le souhaitez.
 
 ```text {all}
 <locale>@<nomDeDomaine>
@@ -40,7 +40,7 @@ jean.martin+site@apple.com (email virtuel, illimité)
 
 <br/>
 
-**Les autres types d'adresse**
+**Les autres types d'adresses e-mail**
 
 |     |     |
 | --- | --- |
@@ -60,11 +60,11 @@ layout: default
 
 <div class="grid grid-cols-3 grid-rows-2 grid-justify-center">
   <Box title="Crédibilité" text="C'est plus sérieux." v-click/>
-  <Box title="Visibilité" text="Promouvoir votre nom, marque ou entreprise." v-click/>
-  <Box title="Fléxibilité" text="Vous pouvez créer plusieurs adresses emails.<br/><br/>Aucune limite." v-click/>
-  <Box title="Pérénnité" text="Temps que vous avez le nom de domaine vous gardez les adresses email." v-click/>
-  <Box title="Simplicité" text="Vous avez deux environnements complétements différents." v-click/>
-  <Box title="Sécurité" text="Vos emails personnels et professionnels sont séparé. Vos emails on moins de probabilité de finir dans les SPAMs." v-click/>
+  <Box title="Visibilité" text="Promouvoir votre nom, votre marque ou votre entreprise." v-click/>
+  <Box title="Fléxibilité" text="Vous pouvez créer plusieurs adresses e-mail.<br/><br/>Aucune limite." v-click/>
+  <Box title="Pérénnité" text="Tant que vous avez le nom de domaine, vous gardez les adresses e-mail." v-click/>
+  <Box title="Simplicité" text="Vous avez deux environnements complètement différents." v-click/>
+  <Box title="Sécurité" text="Vos e-mails personnels et professionnels sont séparés. Vos e-mails ont moins de probabilité de finir dans les spams." v-click/>
 </div>
 
 
@@ -75,12 +75,12 @@ image: ./img/pexels-photomix-company-226746.jpg
 
 # Sécurité
 
-Avoir une sécurité renforcée pour l'adresse de messagerie maître est essentiel.
+Une sécurité renforcée pour l'adresse de messagerie principale est essentielle.
 
-<Box title="Phishing & scamming" text="Induire en erreur le destinataire d'un message, en lui faisant croire qu’il est envoyé par un tiers de confiance." v-click/>
+<Box title="Phishing & scamming" text="Induire en erreur le destinataire d'un message en lui faisant croire qu'il est envoyé par un tiers de confiance." v-click/>
 
 <div class="grid grid-cols-2">
-  <Box title="Mot de passe fort" text="12 caractères minimum, avec des caractères spéciaux et des majuscules" v-click/>
+  <Box title="Mot de passe fort" text="12 caractères minimum, avec l'utilisation de caractères spéciaux et de majuscules." v-click/>
   <Box title="Double authentification" text="Mobile, authenticator app, SMS, email" v-click/>
 </div>
 
@@ -91,34 +91,34 @@ image: ./img/phishing.png
 
 # Phishing & scamming
 <br/>
-<p v-click>Les fuites de données interviennent majoritairement via l'humain qui utilise l'ordinateur. Ce n'est pas l'analyse des données faite par les fournisseurs qui va compromettre votre entreprise.</p>
+<p v-click>Les fuites de données interviennent majoritairement via l'être humain qui utilise l'ordinateur. Ce ne sont pas les analyses des données faites par les fournisseurs qui vont compromettre votre entreprise.</p>
 
-<h2 v-click>Mettez à jour vos navigateurs et logiciels</h2>
+<h2 v-click>Mettez à jour vos navigateurs et vos logiciels.</h2>
 
 ---
 
 # Les fournisseurs
 
-Les solutions disponibles actuellement.
+Voici les solutions disponibles actuellement.
 <br/>
 
 <div class="grid grid-cols-3 gap-10">
-  <div class="flex flex-col gap-2 text-center" v-click>
-    <img src="/img/google-workspace.png" />
-    <p>Facile d'utilisation et de configuration</p> 
-    <p>Suite de bureautique</p>
-    <p>Ergonomie et interface agréable</p>
-    <p>Identification des SPAMs et analyse des fichiers entrants</p>
-  </div>
-  <div class="flex flex-col gap-2 text-center" v-click>
+<div class="flex flex-col gap-2 text-center" v-click>
     <img src="/img/proton.png" />
     <p>Confidentialité et sécurité pour votre entreprise</p>
     <p>Pas de suite bureautique. (VPN, Drive, Calendar)</p>
     <p>Ergonomie et interface agréable</p>
   </div>
   <div class="flex flex-col gap-2 text-center" v-click>
+    <img src="/img/google-workspace.png" />
+    <p>Facile d'utilisation et de configuration</p> 
+    <p>Suite de bureautique</p>
+    <p>Ergonomie et interface agréable</p>
+    <p>Identification des spams et analyse des fichiers entrants</p>
+  </div>
+  <div class="flex flex-col gap-2 text-center" v-click>
     <img src="/img/microsoft-office.png" />
-    <p>Configuration compliqué</p>
+    <p>Configuration et gestion compliquée</p>
     <p>Suite bureautique</p>
   </div>
 </div>
@@ -141,21 +141,21 @@ image: ./img/jp-valery-blOLCO2K4M0-unsplash.jpg
 
 # Autre solution (non recommandée)
 
-Utilisation d'une adresse email professionnel chez votre hébergeur avec un client de messagerie type Microsoft Outlook.
+Utilisation d'une adresse e-mail professionnelle chez votre hébergeur avec un client de messagerie tel que Microsoft Outlook.
 
 <div class="grid grid-cols-3 gap-3">
-  <Box title="IMAP ou POP" text="Actions appliquées sur le serveur ou sur vos appareils. Ce choix impacte les fonctionnalités et la possibilité de backup des emails." v-click/>
-  <Box title="Prix très bas" text="Prix faible car aucune protection et outils complémentaire de base. Souviens bien plus cher par la suite." v-click/>
-  <Box title="Confidentialité" text="Tant que vous n'utilisez pas d'outils tiers la confidentialité sera respectée.(selon fournisseur/hébergeur)" v-click/>
-  <Box title="Configuration compliquée" text="La configuration et la maintenance de ce type d'installation est compliqué et nécéssite un spécialiste." v-click/>
-  <Box title="Protection basse" text="Cette solution ne vous permet pas d'avoir les système de filtre des leaders du marché. Possibilité de s'équiper en parallèle -> implique une analyse par un tier." v-click/>
+  <Box title="IMAP ou POP" text="Actions appliquées sur le serveur ou sur vos appareils. Ce choix a un impact sur les fonctionnalités et la possibilité de sauvegarde des e-mails." v-click/>
+  <Box title="Prix très bas" text="Prix bas car aucune protection et aucun outil complémentaire de base. Souvent bien plus cher par la suite." v-click/>
+  <Box title="Confidentialité" text="Tant que vous n'utilisez pas d'outils tiers, la confidentialité sera respectée (selon le fournisseur/hébergeur)." v-click/>
+  <Box title="Configuration compliquée" text="La configuration et la maintenance de ce type d'installation sont compliquées et nécessitent un spécialiste." v-click/>
+  <Box title="Protection basse" text="Cette solution ne vous permet pas d'avoir les systèmes de filtrage des leaders du marché. Possibilité de s'équiper en parallèle -> implique une analyse par un tiers." v-click/>
 </div>
 
 
 ---
 
 # Gestion des emails
-Comment organiser et gérer sa boite email au quotidien ?
+Comment organiser et gérer sa boîte e-mail au quotidien ?
 
 <div v-click>
 Labellisation et filtrage des emails
@@ -178,21 +178,31 @@ Comment migrer de votre système existant vers un nouveau fournisseur ?
 
 1. Archivage de l'ancienne messagerie
 2. Transfert du carnet d'adresse
-3. Redirection des emails
-4. Labellisation des emails en provenance de l'ancienne adresse email
+3. Redirection des e-mails
+4. Labellisation des e-mails en provenance de l'ancienne adresse e-mail (si possible selon fournisseur)
 5. Signalement du changement à votre carnet d'adresse
 
 <br/>
 
-#### Important
+<div v-click>
 
-Il faut absolument faire le transfert d'un seul coup, ne pas garder 2 adresses email en parallèle et essayer de les séparer petit à petit.
+### Important
+
+Il faut absolument effectuer le transfert en une seule fois, ne pas conserver deux adresses e-mail en parallèle et essayer de les séparer progressivement.
+
+</div>
 
 ---
 
 # Sauvegarde
-Comment conserver vos emails importants ?
+Comment conserver vos e-mails importants ?
 
 - Archiver vos conversations avec les labels
+- Exporter si nécéssaire
 - Conserver uniquement le nécéssaire
 
+---
+
+<div class="flex h-full justify-center items-center">
+  <img src="/img/alpsify-logotextualhorizontal-white.png" class="h-15 rounded shadow"/>
+</div>
